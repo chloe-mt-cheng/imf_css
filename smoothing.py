@@ -431,7 +431,7 @@ def smooth_chunk(wave, flux, noise, res, spike_vals, literature_sigma, smooth_va
     flux : tuple
       Tellurically-corrected flux
     noise : tuple
-      Uncertainty array 
+      Uncertainty array (variance)
     res : tuple
       Wavelength-dependent instrumental resolution from Keck
     spike_vals : tuple
